@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "amenities": "Amenidades",
+    "units": "Unidades",
+    "location": "Ubicación"
+  },
+  "hero": {
+    "title": "Vive",
+    "subtitle": "tu refugio",
+    "description": "Experimenta la magia de Puerto Vallarta en condominios de lujo diseñados para quienes buscan lo extraordinario",
+    "scheduleVisit": "Agendar Visita",
+    "exploreAmenities": "Explorar Amenidades"
+  },
+  "overview": {
+    "title": "Vive la Magia",
+    "subtitle": "Experimenta el estilo de vida de Puerto Vallarta",
+    "description1": "Descubre un mundo donde el lujo se encuentra con la belleza natural de la costa de Puerto Vallarta. Nuestras residencias meticulosamente diseñadas ofrecen una experiencia de vida incomparable en el destino más codiciado de México.",
+    "description2": "Desde playas prístinas hasta gastronomía de clase mundial, desde cultura vibrante hasta atardeceres serenos - cada día se convierte en una experiencia extraordinaria cuando llamas hogar a YUG 286 SLAVIA.",
+    "description3": "Únete a una comunidad exclusiva donde el diseño sofisticado se encuentra con el auténtico encanto de Puerto Vallarta, creando la armonía perfecta entre lujo moderno y paraíso costero.",
+    "features": {
+      "beach": "Acceso a Playa",
+      "beachDesc": "A pasos de costas prístinas",
+      "lifestyle": "Vida Resort", 
+      "lifestyleDesc": "Experiencia de vacaciones diarias",
+      "community": "Comunidad Exclusiva",
+      "communityDesc": "Vecindario curado",
+      "culture": "Rica Cultura",
+      "cultureDesc": "Auténtica herencia mexicana"
+    },
+    "address": "Dirección Privilegiada",
+    "walkScore": "Puntaje de Caminabilidad",
+    "deliveryDate": "Fecha de Entrega"
+  },
+  "experience": {
+    "title": "",
+    "subtitle": "",
+    "description1": "Meticulosamente diseñado para el entorno habitable donde la funcionalidad y versatilidad predominan para beneficio de quien lo vive.",
+    "description2": "Detalles precisos en su diseño para ofrecer un sentido único de privacidad y pertenencia sin descuidar en ellos la vanguardia e innovación en todas sus comodidades.",
+    "description3": "Una prolongación de vida que fluye de manera natural para quien lo habita.",
+    "features": {
+      "beach": {
+        "description": "A pasos de costas prístinas con acceso directo a la playa"
+      },
+      "culture": {
+        "description": "Auténtica herencia mexicana se encuentra con lujo moderno"
+      }
+    },
+    "stats": {
+      "location": "286",
+      "locationDesc": "Dirección Privilegiada",
+      "walkScore": "97",
+      "walkScoreDesc": "Excelente Puntaje de Caminabilidad"
+    },
+    "imageAlt": "Yugoslavia 286 Design Philosophy"
+  },
+  "amenities": {
+    "title": "Amenidades Premium",
+    "subtitle": "Cada detalle diseñado para mejorar tu estilo de vida",
+    "lobby": {
+      "title": "Lobby 24/7",
+      "description": "Servicio de conserjería exclusivo"
+    },
+    "pool": {
+      "title": "Sky Pool",
+      "description": "Piscina infinita en azotea"
+    },
+    "gym": {
+      "title": "Centro de Fitness",
+      "description": "Equipo de última generación"
+    },
+    "terrace": {
+      "title": "Terraza en Azotea",
+      "description": "Vistas de la ciudad 360°"
+    }
+  },
+  "units": {
+    "title": "Planos",
+    "subtitle": "Espacios de vida cuidadosamente diseñados",
+    "details": "2 Recámaras • 2 Baños • Terraza",
+    "features": {
+      "bedroom": "Recámara principal con baño en suite",
+      "living": "Sala y comedor de concepto abierto",
+      "kitchen": "Cocina moderna con acabados premium",
+      "terrace": "Terraza privada con vistas a la ciudad"
+    },
+    "requestPlans": "Descubre Tu Hogar Perfecto - Solicitar Planos",
+    "floorPlans": {
+      "franciaA": {
+        "title": "Plan Francia A",
+        "subtitle": "Piso 7 - Unidad 02",
+        "model": "FRANCIA A",
+        "type": "2 Recámaras • 2 Baños • Terraza",
+        "size": "70.70 m² | 760.90 ft²",
+        "features": {
+          "location": "Piso 7 - Unidad 02",
+          "bedrooms": "2 recámaras con terraza amplia",
+          "space": "Áreas de estar espaciosas",
+          "model": "Modelo Francia A"
+        }
+      },
+      "franciaB": {
+        "title": "Plan Francia B",
+        "subtitle": "Pisos 1, 4, 5, 6 - Unidad 02",
+        "model": "FRANCIA B",
+        "type": "2 Recámaras • 2 Baños • Terraza y Balcón",
+        "size": "70.43 m² | 758.10 ft²",
+        "features": {
+          "location": "Pisos 1, 4, 5, 6 - Unidad 02",
+          "bedrooms": "2 recámaras con balcón",
+          "space": "Terraza espaciosa y balcón",
+          "model": "Modelo Francia B"
+        }
+      },
+      "franciaC": {
+        "title": "Plan Francia C",
+        "subtitle": "Pisos 2, 3, 4 - Unidad 02",
+        "model": "FRANCIA C",
+        "type": "2 Recámaras • 2 Baños • Terraza",
+        "size": "68.01 m² | 732.05 ft²",
+        "features": {
+          "location": "Pisos 2, 3, 4 - Unidad 02",
+          "bedrooms": "Distribución de 2 recámaras",
+          "space": "Espacio de terraza amplio",
+          "model": "Modelo Francia C"
+        }
+      },
+      "romaA": {
+        "title": "Plan Roma A",
+        "subtitle": "Pisos 2, 3, 4 - Unidad 01",
+        "model": "ROMA A",
+        "type": "1 Recámara • 1 Baño • Balcón Amplio",
+        "size": "48.58 m² | 522.91 ft²",
+        "features": {
+          "location": "Pisos 2, 3, 4 - Unidad 01",
+          "bedrooms": "1 recámara con balcón amplio",
+          "space": "Diseño compacto eficiente",
+          "model": "Modelo Roma A"
+        }
+      },
+      "romaB": {
+        "title": "Plan Roma B",
+        "subtitle": "Pisos 1, 5, 6 - Unidad 01",
+        "model": "ROMA B",
+        "type": "1 Recámara • 2 Baños",
+        "size": "44.79 m² | 482.12 ft²",
+        "features": {
+          "location": "Pisos 1, 5, 6 - Unidad 01",
+          "bedrooms": "Distribución de 1 recámara",
+          "space": "Diseño compacto eficiente",
+          "model": "Modelo Roma B"
+        }
+      },
+      "vienaA": {
+        "title": "Plan Viena A",
+        "subtitle": "Pisos 1, 5, 6 - Unidad 04",
+        "model": "VIENA A",
+        "type": "Estudio con Balcón • 1 Baño",
+        "size": "38.45 m² | 413.87 ft²",
+        "features": {
+          "location": "Pisos 1, 5, 6 - Unidad 04",
+          "bedrooms": "Estudio con balcón",
+          "space": "Diseño de concepto abierto",
+          "model": "Modelo Viena A"
+        }
+      },
+      "vienaB": {
+        "title": "Plan Viena B",
+        "subtitle": "Pisos 1, 5, 6 - Unidad 03",
+        "model": "VIENA B",
+        "type": "Estudio • 1 Baño",
+        "size": "29.97 m² | 322.59 ft²",
+        "features": {
+          "location": "Pisos 1, 5, 6 - Unidad 03",
+          "bedrooms": "Distribución tipo estudio",
+          "space": "Diseño de estudio compacto",
+          "model": "Modelo Viena B"
+        }
+      },
+      "vienaC": {
+        "title": "Plan Viena C",
+        "subtitle": "Pisos 2, 3 - Unidad 03",
+        "model": "VIENA C",
+        "type": "Estudio con Terraza • 1 Baño",
+        "size": "32.04 m² | 344.87 ft²",
+        "features": {
+          "location": "Pisos 2, 3 - Unidad 03",
+          "bedrooms": "Estudio con terraza",
+          "space": "Espacio de terraza privada",
+          "model": "Modelo Viena C"
+        }
+      },
+      "vienaD": {
+        "title": "Plan Viena D",
+        "subtitle": "Pisos 2, 3 - Unidad 04",
+        "model": "VIENA D",
+        "type": "Estudio con Terraza Larga • 1 Baño",
+        "size": "33.86 m² | 364.46 ft²",
+        "features": {
+          "location": "Pisos 2, 3 - Unidad 04",
+          "bedrooms": "Estudio con terraza larga",
+          "space": "Espacio de terraza extendido",
+          "model": "Modelo Viena D"
+        }
+      }
+    }
+  },
+  "location": {
+    "title": "Ubicación Premium",
+    "subtitle": "En el corazón de Puerto Vallarta",
+    "connectivity": "Conectividad Privilegiada",
+    "airport": {
+      "title": "Aeropuerto Internacional",
+      "distance": "5.2 km • 8 min en auto"
+    },
+    "marina": {
+      "title": "Marina Vallarta",
+      "distance": "1.3 km • 4 min en auto"
+    },
+    "downtown": {
+      "title": "Centro Histórico",
+      "distance": "8 km • 15 min en auto"
+    },
+    "shopping": {
+      "title": "Centros Comerciales",
+      "distance": "Múltiples ubicaciones cercanas"
+    },
+    "walkScoreText": "Paraíso del Peatón"
+  },
+
+  "cta": {
+    "title": "Experimenta la Magia",
+    "subtitle": "Live the magic of Puerto Vallarta",
+    "scheduleTour": "Agendar Tour Privado",
+    "whatsapp": "WhatsApp"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "fullName": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "interest": "Interés",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "interests": {
+      "visit": "Agendar una visita",
+      "floorPlans": "Información de planos",
+      "pricing": "Información de precios",
+      "investment": "Oportunidades de inversión"
+    },
+    "success": "¡Gracias por tu interés! Te contactaremos pronto.",
+    "error": "Hubo un error al enviar tu mensaje. Por favor intenta de nuevo."
+  },
+  "footer": {
+    "description": "Condominios de lujo en el corazón de Puerto Vallarta",
+    "contactInfo": "Información de Contacto",
+    "quickLinks": "Enlaces Rápidos",
+    "address": "Yugoslavia 286, Puerto Vallarta Jalisco MX",
+    "phone": "+52 322 124 4144",
+    "email": "ventas@yugoslavia286.com",
+    "privacyPolicy": "Política de Privacidad",
+    "rights": "Todos los derechos reservados."
+  },
+  "lifestyle": {
+    "title": "Lujo Redefinido",
+    "subtitle": "Donde la sofisticación se encuentra con el estilo de vida de Puerto Vallarta",
+    "description1": "Experimenta una forma incomparable de vivir donde cada detalle ha sido cuidadosamente curado para superar tus expectativas. Nuestras residencias de lujo ofrecen más que solo un hogar: proporcionan una puerta de entrada al estilo de vida más codiciado de Puerto Vallarta.",
+    "description2": "Desde el momento en que entras, descubrirás cómo el diseño cuidadoso y las amenidades premium crean una atmósfera de elegancia refinada que complementa la belleza natural de este paraíso costero.",
+    "features": {
+      "luxury": {
+        "title": "Acabados Premium",
+        "description": "Mármol italiano, accesorios europeos y elementos de diseño en todo"
+      },
+      "location": {
+        "title": "Dirección Privilegiada",
+        "description": "A pasos de Marina Vallarta y gastronomía de clase mundial"
+      },
+      "community": {
+        "title": "Comunidad Exclusiva",
+        "description": "Club residencial privado con servicios de conserjería"
+      },
+      "investment": {
+        "title": "Inversión Inteligente",
+        "description": "Apreciación comprobada en el mercado de lujo de Puerto Vallarta"
+      }
+    },
+    "imageAlt": "Estilo de Vida de Lujo Puerto Vallarta"
+  },
+  "versalles": {
+    "title": "Versalles: El Destino Más Cotizado",
+    "subtitle": "Según expertos",
+    "recognition": {
+      "title": "Reconocimiento Institucional",
+      "quote1": "Versalles registró la mayor plusvalía de PV: 18% anual en propiedades premium - Asociación Mexicana de Profesionales Inmobiliarios (AMPI) 2024",
+      "quote2": "La zona triplicó su atractivo turístico en 3 años, impulsada por su conectividad y oferta premium - Consejo de Desarrollo Turístico de Jalisco",
+      "quote3": "Barrio emblemático donde convergen gastronomía Michelin (Le Kliff, Tintoque), boutiques de lujo y la comunidad expatriada más exclusiva de la costa"
+    },
+    "factors": {
+      "airport": {
+        "title": "Factor Aeroportuario",
+        "subtitle": "Nuevas Rutas",
+        "description": "Vuelos directos a Frankfurt y Tokio (fase operativa 2026)"
+      },
+      "appreciation": {
+        "title": "Impacto en Plusvalía",
+        "description": "Propiedades en radio de 10 km tienen 28% mayor revalorización (Estudio Colliers: 'Plusvalía en Corredores Aeroportuarios', Q4 2023)"
+      },
+      "growth": {
+        "title": "Crecimiento Asegurado",
+        "description": "Ubicado en la calle más cotizada de Versalles (valorización +22% en 2023, fuente: Registro Público de la Propiedad)"
+      }
+    },
+    "stats": {
+      "roi": "24%",
+      "roiLabel": "ROI Estimado",
+      "roiPeriod": "En 24 meses (proyección garantizada)",
+      "appreciation": "30%",
+      "appreciationLabel": "Tarifas Superiores",
+      "appreciationPeriod": "En renta vacacional premium vs. zona hotelera",
+      "dualRentability": "Rentabilidad Dual",
+      "dualDescription": "Ideal para home office (fibra óptica incluida) y renta vacacional (alta demanda en zona turística certificada)"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "date": "19 de agosto de 2025",
+    "backToHome": "Volver al Inicio",
+    "introduction": {
+      "title": "Introducción",
+      "content": "Yugoslavia 286 ('nosotros', 'nuestro' o 'nos') está comprometido con la protección de su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestro sitio web o usa nuestros servicios en conexión con nuestro desarrollo de condominios de lujo en Puerto Vallarta, México."
+    },
+    "collection": {
+      "title": "Información que Recopilamos",
+      "intro": "Podemos recopilar información sobre usted de varias maneras:",
+      "personal": "Datos Personales: Nombre, dirección de correo electrónico, número de teléfono y otra información de contacto que proporcione",
+      "contact": "Datos de Comunicación: Información de sus consultas, solicitudes de tours y correspondencia con nosotros",
+      "preferences": "Datos de Preferencia: Sus intereses en unidades específicas, amenidades u oportunidades de inversión",
+      "technical": "Datos Técnicos: Dirección IP, tipo de navegador, información del dispositivo y estadísticas de uso del sitio web"
+    },
+    "usage": {
+      "title": "Cómo Usamos Su Información",
+      "communication": "Para responder a sus consultas y programar tours de propiedades",
+      "services": "Para proporcionar información sobre unidades disponibles, precios y amenidades",
+      "marketing": "Para enviarle comunicaciones de marketing sobre Yugoslavia 286 (con su consentimiento)",
+      "improvement": "Para mejorar nuestro sitio web y servicios basándose en sus comentarios",
+      "legal": "Para cumplir con obligaciones legales y proteger nuestros intereses comerciales legítimos"
+    },
+    "sharing": {
+      "title": "Compartir y Divulgación de Información",
+      "intro": "No vendemos, intercambiamos o transferimos su información personal a terceros excepto en las siguientes circunstancias:",
+      "partners": "Con proveedores de servicios confiables que nos ayudan a operar nuestro sitio web y realizar negocios",
+      "legal": "Cuando sea requerido por ley o para proteger nuestros derechos, propiedad o seguridad",
+      "business": "En conexión con una fusión, venta o transferencia de activos (con aviso para usted)"
+    },
+    "security": {
+      "title": "Seguridad de Datos",
+      "content": "Implementamos medidas de seguridad técnicas y organizacionales apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por internet es 100% seguro."
+    },
+    "rights": {
+      "title": "Sus Derechos",
+      "access": "Acceso: Solicitar copias de sus datos personales",
+      "correction": "Corrección: Solicitar corrección de datos inexactos o incompletos",
+      "deletion": "Eliminación: Solicitar eliminación de sus datos personales bajo ciertas circunstancias",
+      "portability": "Portabilidad de Datos: Solicitar transferencia de sus datos a otra organización",
+      "objection": "Objeción: Objetar nuestro procesamiento de sus datos personales"
+    },
+    "cookies": {
+      "title": "Cookies y Tecnologías de Seguimiento",
+      "content": "Nuestro sitio web utiliza cookies y tecnologías de seguimiento similares para mejorar su experiencia de navegación, analizar el tráfico del sitio web y entender las preferencias del usuario. Puede controlar la configuración de cookies a través de las preferencias de su navegador."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "intro": "Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, por favor contáctenos:"
+    },
+    "changes": {
+      "title": "Cambios a Esta Política de Privacidad",
+      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de 'Última actualización'."
+    },
+    "facebook": {
+      "title": "Publicidad en Redes Sociales",
+      "content": "Podemos usar plataformas de redes sociales, incluyendo Facebook e Instagram, para anunciar nuestras propiedades. Cuando interactúa con nuestros anuncios o visita nuestras páginas de redes sociales, estas plataformas pueden recopilar información sobre usted según sus propias políticas de privacidad."
+    },
+    "thirdParty": {
+      "title": "Servicios de Terceros",
+      "intro": "Nuestro sitio web y esfuerzos de marketing pueden integrarse con servicios de terceros:",
+      "analytics": "Servicios de Análisis: Utilizamos análisis web para entender cómo los visitantes usan nuestro sitio web",
+      "social": "Plataformas de Redes Sociales: Facebook, Instagram y otras plataformas para publicidad y participación",
+      "communications": "Herramientas de Comunicación: WhatsApp para consultas y soporte al cliente",
+      "maps": "Servicios de Mapas: Para mostrar la ubicación de la propiedad y amenidades cercanas"
+    },
+    "dataRetention": {
+      "title": "Retención de Datos",
+      "content": "Conservamos su información personal solo el tiempo necesario para cumplir los propósitos descritos en esta política de privacidad, cumplir obligaciones legales, resolver disputas y hacer cumplir nuestros acuerdos. La información de contacto se conserva típicamente por 7 años a menos que solicite su eliminación."
+    },
+    "international": {
+      "title": "Transferencias Internacionales de Datos",
+      "content": "Como Yugoslavia 286 opera en México y puede usar proveedores de servicios internacionales, su información puede ser transferida y procesada en países distintos a México. Aseguramos que se implementen las salvaguardas apropiadas para tales transferencias."
+    },
+    "minors": {
+      "title": "Privacidad de Menores",
+      "content": "Nuestros servicios no están dirigidos a niños menores de 18 años. No recopilamos conscientemente información personal de niños menores de 18 años. Si cree que hemos recopilado dicha información, contáctenos inmediatamente."
+    },
+    "advertising": {
+      "title": "Publicidad y Marketing",
+      "intro": "Podemos usar su información para propósitos de publicidad y marketing:",
+      "targeted": "Publicidad Dirigida: Crear audiencias personalizadas para publicidad en redes sociales",
+      "email": "Marketing por Correo: Enviar boletines y actualizaciones de propiedades (con consentimiento)",
+      "retargeting": "Reorientación Web: Mostrar anuncios relevantes a visitantes previos del sitio web",
+      "optOut": "Puede optar por no recibir comunicaciones de marketing en cualquier momento siguiendo las instrucciones para darse de baja o contactándonos directamente."
+    }
+  }
+}

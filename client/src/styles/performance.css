@@ -1,0 +1,88 @@
+/* Performance optimizations for images and videos */
+
+/* Critical CSS for above-the-fold content */
+.hero-section {
+  will-change: transform;
+  contain: layout style paint;
+}
+
+/* Image optimization classes */
+.optimized-image {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 300px;
+  will-change: auto;
+}
+
+.gallery-image {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 250px;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Video optimization */
+.hero-video {
+  will-change: auto;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Lazy loading placeholder */
+.image-placeholder {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* GPU acceleration for animations */
+.animate-fade-in {
+  transform: translateZ(0);
+  will-change: opacity, transform;
+}
+
+/* Optimize hover effects */
+.hover-optimize {
+  transition: transform 0.2s ease;
+  will-change: transform;
+}
+
+.hover-optimize:hover {
+  transform: translateZ(0) scale(1.05);
+}
+
+/* Reduce paint area for modals */
+.modal-overlay {
+  contain: layout style paint;
+  will-change: auto;
+}
+
+/* Critical font loading */
+@font-face {
+  font-family: 'display-optimized';
+  font-display: swap;
+  font-weight: 100 900;
+}
+
+/* Intersection observer optimization */
+.lazy-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  .gallery-image {
+    contain-intrinsic-size: 1px 200px;
+  }
+  
+  .hero-video {
+    object-fit: cover;
+    object-position: center;
+  }
+}

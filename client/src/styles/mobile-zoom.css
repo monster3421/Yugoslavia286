@@ -1,0 +1,120 @@
+/* Enhanced mobile zoom with finger stretching capability */
+
+/* Global pinch-zoom enablement */
+.zoomable-container {
+  touch-action: pan-x pan-y pinch-zoom;
+  overflow: visible;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.zoomable-image {
+  touch-action: pan-x pan-y pinch-zoom;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  min-width: 100%;
+  transform-origin: center center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Enhanced modal containers for better zoom experience */
+.modal-zoom-container {
+  touch-action: pan-x pan-y pinch-zoom;
+  overflow: visible;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  .zoomable-container {
+    /* Enable native pinch-zoom and pan on mobile */
+    touch-action: pan-x pan-y pinch-zoom;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+  }
+
+  .zoomable-image {
+    /* Allow finger stretching and zooming */
+    touch-action: pan-x pan-y pinch-zoom;
+    max-width: none;
+    width: 100vw;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Optimize touch targets for mobile */
+  .modal-nav-button {
+    min-width: 48px;
+    min-height: 48px;
+    padding: 12px;
+    touch-action: manipulation;
+    position: fixed;
+    z-index: 60;
+  }
+
+  .modal-close-button {
+    min-width: 48px;
+    min-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    touch-action: manipulation;
+    position: fixed;
+    z-index: 60;
+  }
+
+  /* Remove click behavior on mobile to allow native pinch */
+  .zoomable-image {
+    pointer-events: auto;
+  }
+}
+
+/* Desktop zoom enhancements */
+@media (min-width: 769px) {
+  .zoomable-image:hover {
+    cursor: zoom-in;
+  }
+  
+  .zoomable-image.zoomed {
+    cursor: zoom-out;
+  }
+
+  .modal-zoom-container {
+    overflow: hidden;
+  }
+}
+
+/* Animation for smooth zoom transitions */
+@keyframes zoomIn {
+  from { transform: scale(1); }
+  to { transform: scale(2); }
+}
+
+@keyframes zoomOut {
+  from { transform: scale(2); }
+  to { transform: scale(1); }
+}
